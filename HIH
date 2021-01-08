@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+    <title>Strona - projekt</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Wiktor" />
+    <meta name="description" content="Strona projekt - HiH 2013" />
+    <meta name="keywords" content="samochody, auta, projekt" />
+    <link rel="Stylesheet" href="Style.css" />
+    <link rel="Shortcut icon" href="ikonka.ico" />
+</head>
+<body>
+
+    <div id="kol_lewa">
+        <h4>Menu</h4>
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li>
+                <a href="samochody.html" class="active">Samochody</a>
+                <ul>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                </ul>
+            </li>
+            <li><a href="ankieta.html">Ankieta</a></li>
+            <li><a href="http://pl.wikipedia.org/wiki/Samoch%C3%B3d">Wikipedia</a></li>
+        </ul>
+    </div>
+
+
+    <div id="header"></div>
+
+
+
+
+    <div id="kol_prawa">
+        <h1>Projekt Hipertekst i Hipermedia 2013</h1>
+        <h2>Temat: MOJA PASJA</h2>
+        <h3>Wydział Elektroniki, Telekomunikacji i Informatyki Politechniki Gdańskiej</h3>
+
+        <p class="przyklady">Przykład wykorzystania tabeli w dokumencie</p><br />
+
+        <table>
+            <caption>Tabela 1.Lista różnych samochodów, wybranych losowo</caption>
+            <tr>
+                <th>Nr</th>
+                <th>Marka</th>
+                <th>Model</th>
+                <th>Pojemność</th>
+                <th>Kraj</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Audi</td>
+                <td>A3</td>
+                <td>1896cm³</td>
+                <td>Niemcy</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>BMW</td>
+                <td>M3</td>
+                <td>3999cm³</td>
+                <td>Niemcy</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Jaguar</td>
+                <td>XJ220</td>
+                <td>3498cm³</td>
+                <td>Wielka Brytania</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Maserati</td>
+                <td>GranTurismo </td>
+                <td>4244cm³</td>
+                <td>Włochy</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Mercedes-Benz</td>
+                <td>SLR McLaren</td>
+                <td>5439cm³</td>
+                <td>Anglia</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>Porsche</td>
+                <td>Carrera GT</td>
+                <td>5733cm³</td>
+                <td>Niemcy</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <table>
+            <caption>Tabela 2.Lista spalania</caption>
+            <tr>
+                <th>Nr</th>
+                <th>Model</th>
+                <th>Pojemność</th>
+                <th>l/100km</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>A3</td>
+                <td>1.9 TDI</td>
+                <td>7l/100</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Leon</td>
+                <td>1.8 T</td>
+                <td>12l/100</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Golf</td>
+                <td>1.9 TDI</td>
+                <td>6,9l/100</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Supra</td>
+                <td>3.0 T</td>
+                <td>15l/100</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div id="stopka">
+        <h2>Autor: Wiktor Kobiela 2013 <a href="mailto:wiktor.kobiela@gmail.com">[ mail_me ]</a></h2>
+    </div>
+</body>
+</html>
